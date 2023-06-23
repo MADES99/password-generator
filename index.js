@@ -122,7 +122,7 @@ copybtn.addEventListener('click', () => {
         .then(() => {
             console.log("Password copied to clipboard!")
             copybtn.style.backgroundColor = '#ECFDF5'
-            alert('message copied to clipboard!')
+            alert('Password copied to clipboard!')
         })
         .catch((error) => {
             console.error('Failed to copy password:', error)
@@ -137,7 +137,7 @@ copybtn2.addEventListener('click', () => {
     .then(() => {
         console.log("Password copied to clipboard!")
         copybtn2.style.backgroundColor = '#ECFDF5'
-        alert('message copied to clipboard!')
+        alert('Password copied to clipboard!')
     })
 
     .catch((error) => {
