@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@500;800&family=Roboto:wght@700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+
+}
+
+.generate-box{
+    width: 550px;
+    height: 550px;
+    background: #1F2937;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 115px 52px;
+}
+
+
+.generate-box h1 {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: -1px;
+    width: 354px;
+    margin-bottom: 10px;
+}
+
+.generate-box h1 span {
+    color: #4ADF86;
+}
+
+.generate-box p {
+    width: 372px;
+    color: #D5D4D8;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 51px;
+}
+
+.generate-box button {
+    border: none;
+    color:  #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 9px 17px 9px 15px;
+    text-align: center;
+    border-radius: 6px;
+    background: #10B981;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+}
+
+#bottom-line {
+    border-bottom: 1px solid #2F3E53;
+    width: 446px;
+    height: 1px;
+    margin: 35px 0px 35px 0px;
+}
+.password-box {
+    position: relative;
+}
+
+.password-box input[type="text"] {
+    width: 211px;
+    height: 39px;
+    border-radius: 6px;
+    background: #273549;
+    border: none;
+    margin-right: 5px;
+    color: #55F991;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px; 
+}
+
+input[type="text"]:focus {
+    outline: none;
+}
+
+.password-box img{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: white;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #273549;
+}
+
+
+
+#copy-password1{
+    top: 0px;
+    left: 188px;
+}
+
+#copy-password2{
+    top: 0px;
+   right: 8px;
+
+}
+
+@media (max-width : 760px)  {
+    .password-box input[type="text"] {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .generate-box {
+        padding: 100px 25px;
+    }
+
+    #copy-password2{
+        top: 62px;
+    }
+}
